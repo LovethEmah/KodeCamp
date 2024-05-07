@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: "Playfair Display", serif;
+    box-sizing: border-box;
+}
+
+header>h1 {
+    color: #086DB8;
+    text-align: left;
+}
+
+header {
+    text-align: right;
+}
+
+header>img {
+    width: 59px;
+    height: 63px;
+    top: 27px;
+}
+
+body {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 320px) {
+    .body {
+        display: block;
+    }
+}
+
+.first-row,
+.second-row, 
+.third-row,
+.fourth-row {
+    display: flex;
+    gap: 20px;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.input, select {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.form-section {
+    flex: 1;
+    width: 100%;
+} 
+
+.about {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.button-container {
+    text-align: end;
+}
+
+.button {
+    background-color: #086DB8;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px 0px;
+    border: 1px;
+    margin-top: 20px;
+}
+
+.image-section {
+    background-image: url("../kodecamp.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex: 1;   
+}
+
+.title1 {
+    text-align: end;
+    color: #FFFFFF;
+}
+
+.title2 {
+    color: #FFFFFF;
+   margin-top: 600px;
+}
+

@@ -1,11 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>KodeCamp</title>
 </head>
+
 <body>
-    
+
+    <section class="form-section">
+
+        <header>
+            <img src="../kodelogo.svg">
+            <h1>Sign Up</h1>
+        </header>
+
+        <form>
+
+            <div class="first-row">
+                <div class="container">
+                    <label for="firstname">First Name</label>
+                    <div>
+                        <input class="input" id="firstname">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <label for="lastname">Last Name</label>
+                    <div>
+                        <input class="input" id="lastname">
+                    </div>
+                </div>
+            </div>
+
+            <div class="second-row">
+                <div class="container">
+                    <label for="email">Email</label>
+                    <div>
+                        <input class="input" id="email">
+                    </div>
+                </div>
+ 
+                <div class="container">
+                    <label for="gender">Gender</label>
+                    <div>
+                        <input type="radio" name="gender" value="male" checked>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" value="female">
+                        <label for="male">Female</label>
+                        <input type="radio" name="gender" value="other">
+                        <label for="male">Other</label>
+                    </div>
+                </div>
+            </div>
+            <div class="third-row">
+                <div class="container">
+                    <label for="password">Password</label>
+                    <div>
+                        <input class="input" id="password">
+                    </div>
+                </div>
+
+                <div class="container">
+                    <label for="confirm">Confirm Password</label>
+                    <div>
+                        <input class="input" id="confirm">
+                    </div>
+                </div>
+            </div>
+
+            <div class="fourth-row">
+                <div class="container">
+                    <label for="edlevel">Educational Level</label>
+                    <div>
+                        <select name="" id="edlevel">
+                            <option disabled selected value=""></option>
+                            <option value="ssce">SSCE</option>
+                            <option value="b.sc">B.SC</option>
+                            <option value="b.a">B.A</option>
+                            <option value="master">Master Degree</option>
+                            <option value="phd">PH.D</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <label for="exevel">Educational Level</label>
+                    <div>
+                        <select name="" id="edlevel">
+                            <option disabled selected value=""></option>
+                            <option value="3-5">3-5 years</option>
+                            <option value="5-10">5-10 years</option>
+                            <option value="10-15">10-15 years</option>
+                            <option value="15-20">15-20 years</option>
+                            <option value="20-25">20-25 years</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="about">
+                <label for="about">Tell us about you</label><br>
+                <textarea class="about" name="text" id="about" rows="2"></textarea>
+            </div>
+
+            <div class="button-container">
+                <button type="button" class="button">Create Account</button>
+            </div>
+
+        </form>
+    </section>
+
+    <section class="image-section">
+        <h1 class="title1">KodeCamp</h1>
+        <h2 class="title2">JOIN OUR COHORT</h2>
+    </section>
+
 </body>
+
 </html>
